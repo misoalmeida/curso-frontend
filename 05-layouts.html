@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <title>HTML - Layouts</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+    </head>
+    <body>
+        <header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="sobre">Sobre</a></li>
+                    <li><a href="./06-formularios.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <article>
+                <h1>Título Artigo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat quis mi non suscipit. Vestibulum eu lectus eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed in odio tempus, fringilla eros eget, bibendum massa. </p>
+                    
+                <p>Pellentesque maximus lacus sapien, ac suscipit arcu fermentum non. Etiam id tempor odio, eu molestie quam. Vestibulum nec diam vitae ex tincidunt pretium vel eu dui. Curabitur malesuada vel ante ut porttitor. Aenean rutrum eget turpis vel euismod. Maecenas faucibus erat id ultricies pellentesque.</p>
+            </article>
+
+        </section>
+        <footer>
+            <p>Desenvolvido por Milena</p>
+        </footer>
+        
+    </body>
+</html>

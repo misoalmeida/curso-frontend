@@ -1,0 +1,90 @@
+html {
+	font-family: 'Source Sans Pro', sans-serif;;
+	font-size: 62.5% /* equivalente a 10px */
+}
+
+header {
+	/* background-color: #eee; */
+	/* background-repeat: no-repeat; */
+	background-image: url("../imagem/background-title.png");
+    height: 200px;
+	text-align: center;
+	font-size: 5rem;
+	padding: 80px;
+}
+
+h3 {
+	font-size: 2em;
+	padding-top: 30px;
+/* 	margin: 0 0; */
+}
+
+nav {
+	float: left;
+	width: 30%;
+	background: #ccc;
+    padding: 0 20px;
+	display: inline;
+	/* padding-bottom: 485px; */
+	/* 	padding-top: 20px; */
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+    font-size: 20px;
+}
+
+.navegacao li {
+	border-bottom: 1px solid #562bee;
+	display: block;
+	padding: 1rem 1rem 4rem 1rem;
+	line-height: 1.6rem;
+/* 	margin-bottom: 20px; */
+}
+
+.navegacao a {
+	background-color: transparent;
+/* 	font-size: 20px; */
+	display: block;
+	width: 100%;
+	transition: .5s;
+}
+
+.sociais li {
+	display: block;
+	padding: 1rem 1rem 2rem 1rem;
+	padding: 10px 0;
+}
+
+.sociais div {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.sociais img {
+	margin-right: 10px;
+}
+
+ul li {
+	font-size: .8em; /* equivale a 8px */
+	width: 80%;
+	height: 10px;
+}
+
+a {
+	color: #336;
+	text-decoration: none;
+	padding: 10px;
+}
+
+a:active {
+	position: relative;
+	top: 1px;
+}
+
+.navegacao a:hover {
+	color: #562af1;
+	background: #eee;
+	padding: 10px;
+}

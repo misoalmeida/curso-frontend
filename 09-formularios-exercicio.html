@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <title>HTML - Formulário Fale Conosco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/00-reset.css"> 
+		<link rel="stylesheet" type="text/css" href="./css/style_exercicio.css">
+
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+		
+    </head>
+    <body>
+        <header>
+			<h2>Fale conosco</h2>
+		</header>
+
+        <section>
+		<!-- <nav>
+                <ul class="navegacao">
+                    <li><a href="./05-layouts.html">Home</a></li>
+                    <li><a href="sobre">Sobre</a></li>
+                    <li><a href="contato">Contato</a></li>
+                </ul>
+            </nav> -->
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul class="navegacao">
+					<!-- <li id="primeiro-link"><a href="01-index.html">Introdução</a></li> -->			
+					<li><a href="00-homepage.html">Homepage</a></li>
+					<li><a href="01-index.html">Introdução</a></li>
+					<li><a href="02-listas-e-links.html">Listas e Links</a></li>
+					<li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+					<li><a href="04-tabelas.html">Tabelas</a></li>
+					<li><a href="05-layouts.html">Layouts</a></li>
+					<li><a href="09-formularios-exercicio.html">Contato</a></li>
+				</ul>
+
+				<h3>Redes Sociais</h3>
+				<ul class="sociais">
+					<div>
+						<li>
+							<a href="https://www.linkedin.com/in/milena-sampaio-69a2b599/" target="_blank" rel="noopener noreferrer">
+								<img src="../imagem/linkedin.png" alt="LinkedIn">LinkedIn
+							</a>
+						</li>
+					</div>
+
+					<div>
+						<li>
+							<a href="https://www.behance.net/milenasampaio" target="_blank" rel="noopener noreferrer">
+								<img src="../imagem/behance.png" alt="Portfólio">Portfólio
+							</a>
+						</li>
+					</div>
+				</ul>
+			</nav>
+
+            <article>
+				<div class="boxlabel">
+                <h1>Contato</h1>
+				<p>Preencha os campos abaixo</p>
+				
+				<form method="post">
+					<div>
+						<input type="text" name="nome" id="nome" placeholder="Nome completo">
+					</div>
+
+					<div>
+						<input type="email" name="email" id="email" placeholder="Endereço de email">
+					</div>
+
+					<div>
+						<label for="mensagem">Escreva aqui sua mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<p id="teste">
+							<label>Selecione quais linguagens você prefere?</label><br>
+							<input type="radio" name="linguagens" value="html">HTML
+							<input type="radio" name="linguagens" value="css">CSS
+							<input type="radio" name="linguagens" value="javascript">JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p id="teste">
+							<label>Selecione quais linguagens você sabe?</label><br>
+							<input type="checkbox" name="linguagens" value="html">HTML
+							<input type="checkbox" name="linguagens" value="css">CSS
+							<input type="checkbox" name="linguagens" value="javascript">JavaScript
+						</p>
+					</div>
+
+					<div>
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="Azul">Azul</option>
+							<option value="Verde">Verde</option>
+							<option value="Vermelho" selected>Vermelho</option>
+						</select>
+					</div>
+
+					<div class="botton">
+						<input type="submit">
+					</div>
+				</form>
+            </article>
+        </section>
+
+		<div class="container body-content">
+			<footer class="fixarRodape">
+				<h2>Desenvolvido por Milena</h2>
+			</footer>
+		</div>
+
+<!--         <footer>
+            <h2>Desenvolvido por Milena</h2>
+        </footer> -->	
+        
+    </body>
+</html>
